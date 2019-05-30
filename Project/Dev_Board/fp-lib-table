@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ESP32-Footprints)(type KiCad)(uri C:/Users/SimonDuchesne/Documents/GitHub/Esp32-Dev-PCB/librairy/ESP32-kiCAD-Footprints-master/ESP32-kiCAD-Footprints-master/ESP32-Footprints)(options "")(descr ""))
+)
