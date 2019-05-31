@@ -1,4 +1,121 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7400 7500 0    50   ~ 0
+esp32 dev board
+Text Notes 8200 7650 0    50   ~ 0
+2019-05-16
+Text Notes 10550 7150 0    50   ~ 10
+Simon Duchesne
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 5CF0930B
+P 1500 2100
+F 0 "U?" H 1500 3681 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 1500 3590 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 1500 600 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1200 2150 50  0001 C CNN
+	1    1500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5CF178B3
+P 2550 5850
+F 0 "J?" H 2578 5826 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 2578 5735 50  0000 L CNN
+F 2 "" H 2550 5850 50  0001 C CNN
+F 3 "~" H 2550 5850 50  0001 C CNN
+	1    2550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5CF18C99
+P 1900 5850
+F 0 "J?" H 2008 6231 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2008 6140 50  0000 C CNN
+F 2 "" H 1900 5850 50  0001 C CNN
+F 3 "~" H 1900 5850 50  0001 C CNN
+	1    1900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5CF16C3E
+P 2550 4700
+F 0 "J?" H 2578 4676 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 2578 4585 50  0000 L CNN
+F 2 "" H 2550 4700 50  0001 C CNN
+F 3 "~" H 2550 4700 50  0001 C CNN
+	1    2550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 5CF15183
+P 1900 4700
+F 0 "J?" H 2008 5181 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 2008 5090 50  0000 C CNN
+F 2 "" H 1900 4700 50  0001 C CNN
+F 3 "~" H 1900 4700 50  0001 C CNN
+	1    1900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5CF23AB4
+P 3650 5750
+F 0 "J?" H 3678 5726 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 3678 5635 50  0000 L CNN
+F 2 "" H 3650 5750 50  0001 C CNN
+F 3 "~" H 3650 5750 50  0001 C CNN
+	1    3650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 5CF23ABA
+P 3000 5750
+F 0 "J?" H 3108 6231 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 3108 6140 50  0000 C CNN
+F 2 "" H 3000 5750 50  0001 C CNN
+F 3 "~" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male J?
+U 1 1 5CF24CE7
+P 3000 4800
+F 0 "J?" H 3108 5381 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 3108 5290 50  0000 C CNN
+F 2 "" H 3000 4800 50  0001 C CNN
+F 3 "~" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5CF26CEC
+P 3650 4800
+F 0 "J?" H 3678 4776 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 3678 4685 50  0000 L CNN
+F 2 "" H 3650 4800 50  0001 C CNN
+F 3 "~" H 3650 4800 50  0001 C CNN
+	1    3650 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
