@@ -1,0 +1,5 @@
+headers arduino https://www.adafruit.com/product/85
+
+product list
+	esp32
+		https://www.digikey.ca/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-2-ND/8544298
